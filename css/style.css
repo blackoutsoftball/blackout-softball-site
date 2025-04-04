@@ -1,0 +1,193 @@
+/* === GLOBAL STYLES === */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #222;
+}
+
+/* === HEADER SECTION === */
+header {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* === NAVIGATION BAR === */
+.navbar {
+  background-color: #00bcd4; /* turquoise */
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+/* === LOGO === */
+.logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* === MAIN TITLE === */
+h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  color: #00bcd4; /* turquoise pop */
+}
+
+/* === MAIN CONTENT AREA === */
+main {
+  padding: 2rem;
+  background: white;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* === GENERAL LINK STYLES === */
+a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff4081; /* pink accent for flair */
+}
+
+/* === FOOTER SECTION === */
+footer {
+  background: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* === SLIDESHOW SECTION === */
+.slideshow {
+  padding: 2rem;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.slider {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Show the first slide by default */
+.slide:first-child {
+  display: block;
+}
+
+/* === TRYOUT FORM STYLES === */
+.tryout-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tryout-form label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.tryout-form input,
+.tryout-form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.tryout-form button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tryout-form button:hover {
+  background-color: #008ba3;
+}
+
+/* === CONTACT PAGE SIMPLE INFO BLOCK === */
+.contact-simple {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contact-simple a {
+  color: #00bcd4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-simple a:hover {
+  text-decoration: underline;
+}
+
+/* === DONATION SECTION === */
+.donation-options {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.donation-options a {
+  color: #00bcd4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.donation-options a:hover {
+  text-decoration: underline;
+}
