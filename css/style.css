@@ -191,3 +191,57 @@ footer {
 .donation-options a:hover {
   text-decoration: underline;
 }
+/* 📱 Mobile Responsive Styles */
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .slider {
+    max-width: 100%;
+  }
+
+  .tryout-form,
+  .contact-simple,
+  .donation-options {
+    padding: 1rem;
+  }
+}
+/* 🌙 Dark Mode Theme */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode .navbar {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+body.dark-mode a {
+  color: #80cbc4;
+}
+
+body.dark-mode .tryout-form input,
+body.dark-mode .tryout-form textarea,
+body.dark-mode .donation-options,
+body.dark-mode .contact-simple {
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+  border-color: #444;
+}

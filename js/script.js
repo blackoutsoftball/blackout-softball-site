@@ -17,3 +17,9 @@ window.onload = function () {
 
   setInterval(showNextSlide, 3000);
 };
+
+// 🌈 Theme toggle script
+const themeBtn = document.getElementById('themeToggle');
+themeBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+});
