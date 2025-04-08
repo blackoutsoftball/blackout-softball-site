@@ -324,3 +324,15 @@ body.dark-mode .contact-simple {
 .bio-block li {
   margin-bottom: 0.5rem;
 }
+/* === ✅ Centered Bullet Points for Tournament Lists === */
+.bio-block ul {
+  list-style-position: inside;    /* Keeps bullets inside the text block */
+  padding-left: 0;                /* Remove default browser indent */
+  margin: 0 auto;                 /* Center the <ul> block */
+  display: inline-block;          /* Allows centering without full-width stretch */
+  text-align: left;               /* Keep bullets/text left-aligned */
+}
+
+.bio-block li {
+  margin-bottom: 0.5rem;          /* Add spacing between bullet items */
+}
