@@ -323,3 +323,14 @@ body.dark-mode .contact-simple {
 .bio-block li {
   margin-bottom: 0.5rem;          /* Add spacing between bullet items */
 }
+/* 🎯 Center tournament bullet list container */
+.center-list {
+  display: flex;
+  justify-content: center;
+}
+
+.center-list ul {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: left;
+}
