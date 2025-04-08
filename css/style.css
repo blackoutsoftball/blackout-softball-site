@@ -266,34 +266,42 @@ body.dark-mode .contact-simple {
 }
 /* === 🧢 Coach Intro Styling === */
 .coach-intro {
-  background-color: #f9f9f9;
+  text-align: center;
   padding: 2rem;
+  background-color: #f9f9f9;
   border-radius: 1rem;
   max-width: 900px;
   margin: 2rem auto;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .coach-card {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
 }
 
 .coach-photo {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
+  border-radius: 50%;
   border: 4px solid #00bcd4;
+  margin-bottom: 1rem;
 }
 
-.coach-bio h3 {
-  margin: 0 0 0.5rem;
+.coach-bio {
+  max-width: 800px;
 }
 
-.coach-bio p {
-  margin: 0;
-  font-size: 1.05rem;
+.coach-bio h3,
+.coach-bio h4,
+.coach-bio p,
+.coach-bio ul {
+  text-align: center;
+}
+
+.coach-bio ul {
+  list-style-position: inside;
+  padding: 0;
 }
