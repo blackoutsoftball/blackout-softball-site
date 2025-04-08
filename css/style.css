@@ -311,19 +311,6 @@ body.dark-mode .contact-simple {
   text-align: center;
 }
 
-/* === ✅ Bullet Point List Styling === */
-.bio-block ul {
-  list-style-position: inside; /* Keeps bullets aligned with text */
-  padding-left: 0;
-  margin: 0 auto;
-  display: inline-block;
-  text-align: left; /* Makes list items easy to read */
-}
-
-/* Space between list items */
-.bio-block li {
-  margin-bottom: 0.5rem;
-}
 /* === ✅ Centered Bullet Points for Tournament Lists === */
 .bio-block ul {
   list-style-position: inside;    /* Keeps bullets inside the text block */
