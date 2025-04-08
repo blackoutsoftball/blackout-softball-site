@@ -264,3 +264,36 @@ body.dark-mode .contact-simple {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   }
 }
+/* === 🧢 Coach Intro Styling === */
+.coach-intro {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.coach-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.coach-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00bcd4;
+}
+
+.coach-bio h3 {
+  margin: 0 0 0.5rem;
+}
+
+.coach-bio p {
+  margin: 0;
+  font-size: 1.05rem;
+}
